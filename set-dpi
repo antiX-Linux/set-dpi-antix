@@ -93,7 +93,7 @@ sleep 1
 
 if [ "$(psg antixcc.sh)" ]; then
 	pkill antixcc.sh
-	kill $(ps -ax |grep -e "gtkdialog --program=ControlCenter" |grep -v "grep"|cut -d ' ' -f1)
+	kill $(psg -n program=ControlCenter)
 	antixcc.sh &
 	sleep .5
 fi
@@ -102,7 +102,7 @@ fi
 /usr/local/lib/desktop-session/desktop-session-restart &
 
 #let things settle down before bringing back the selection dialog
-sleep 1
+sleep 5
 actionstatus=0
 }
 
