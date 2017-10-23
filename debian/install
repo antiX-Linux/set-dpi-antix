@@ -1,2 +1,3 @@
 set-dpi 	usr/local/bin
 locale/* 	usr/share/locale
+set-dpi.desktop 	usr/share/applications/antix

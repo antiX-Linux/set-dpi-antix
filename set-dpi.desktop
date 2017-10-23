@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Set Font dpi
+Exec=set-dpi
+Icon=fonts
+Terminal=false
+Type=Application
+Categories=Settings;
+NoDisplay=False

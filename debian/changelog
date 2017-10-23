@@ -1,3 +1,9 @@
+set-dpi-antix (0.1.2) unstable; urgency=medium
+
+  * Show in Applications menu
+
+ -- anticapitalista <antix@operamail.com>  Sun, 08 Oct 2017 00:50:23 +0300
+
 set-dpi-antix (0.1.1) unstable; urgency=medium
 
   * Added Catalan and Italian 
